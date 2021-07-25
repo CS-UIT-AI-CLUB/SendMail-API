@@ -11,10 +11,14 @@ python3 main.py
 ```
 
 ### Docker
+#### Build docker image
 ```bash
 docker build -t <image_name>:<image_tag> .
 ```
-
+### Run docker container
+```bash
+docker run -d -p 5000:5000 <image_name>:<image_tag>
+```
 ### Usage:
 
 * **URL**
