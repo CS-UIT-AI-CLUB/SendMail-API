@@ -1,6 +1,21 @@
 ## Sending Multiple Emails Automatically
-------------------
-Run ```python3 main.py``` to use the API
+
+### Run manually:
+#### Install independence packages 
+```bash
+pip3 install -r requirements.txt
+```
+#### To use the API run
+```python
+python3 main.py
+```
+
+### Docker
+```bash
+docker build -t <image_name>:<image_tag> .
+```
+
+### Usage:
 
 * **URL**
 ```
@@ -44,3 +59,5 @@ Run ```python3 main.py``` to use the API
 * **Note:**
   
   The ``` csv ``` and ``` html ``` are located in the ```sample_file``` folder, you must follow the format of those files to send email successfully.
+
+
